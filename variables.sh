@@ -20,5 +20,6 @@ echo "Random number: $RANDOM"
 sum=$((Num1+Num2))
 echo "sum is $sum "
 '
-movies=("RRR" "Bahibali" "Salaar")
-echo "new movies : ${movies[@]}"
+movies=("RRR" "Bahubali" "Salaar")
+#echo "new movies : ${movies[@]}"
+echo "best movie : ${movies[1]}"
