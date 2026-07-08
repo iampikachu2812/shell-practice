@@ -1,4 +1,5 @@
 #!/bin/bash
+: '
 Num1=10
 Num2=20
 echo "All variables passed to script: $@"
@@ -18,3 +19,6 @@ echo "Script executed in $SECONDS seconds"
 echo "Random number: $RANDOM"
 sum=$((Num1+Num2))
 echo "sum is $sum "
+'
+movies=("RRR" "Bahibali" "Salaar")
+echo "new movies : ${movies[@]}"
