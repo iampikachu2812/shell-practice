@@ -19,7 +19,14 @@ echo "Script executed in $SECONDS seconds"
 echo "Random number: $RANDOM"
 sum=$((Num1+Num2))
 echo "sum is $sum "
-'
 movies=("RRR" "Bahubali" "Salaar")
 #echo "new movies : ${movies[@]}"
 echo "best movie : ${movies[1]}"
+'
+Number =$1
+if [ $Number -gt 20] ; then
+echo "Number is greater than 20"
+elif [ $Number -eq 20] ; then
+echo "Number is equal to 20"
+else
+echo "Number is less than 20"
