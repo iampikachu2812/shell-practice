@@ -16,5 +16,5 @@ wait $!
 echo "Line number: $LINENO"
 echo "Script executed in $SECONDS seconds"
 echo "Random number: $RANDOM"
-sum=$((Num+Num2))
+sum=$((Num1+Num2))
 echo "sum is $sum "
