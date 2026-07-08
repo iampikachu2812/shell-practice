@@ -1,4 +1,6 @@
-#!bin/bash
+#!/bin/bash
+Num1=10
+Num2=20
 echo "All variables passed to script: $@"
 echo "Number of variables passed: $#"
 echo "First variable: $1"
@@ -14,3 +16,5 @@ wait $!
 echo "Line number: $LINENO"
 echo "Script executed in $SECONDS seconds"
 echo "Random number: $RANDOM"
+sum=$((Num+Num2))
+echo "sum is $sum "
