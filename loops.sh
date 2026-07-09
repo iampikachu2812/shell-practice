@@ -2,5 +2,5 @@
 for $package in $@
 do
     echo "installing $package"
-    dnf install $package -y"
+    dnf install $package -y
 done
