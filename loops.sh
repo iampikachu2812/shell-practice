@@ -1,5 +1,5 @@
 #!/bin/bash
-for $package in $@
+for package in $@
 do
     echo "installing $package"
     dnf install $package -y
